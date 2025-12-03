@@ -1,6 +1,5 @@
 import { readFile } from "node:fs/promises";
 
-
 const data = await readFile("input.txt", "utf-8");
 const idRanges = data.split(",");
 let sum = 0;
